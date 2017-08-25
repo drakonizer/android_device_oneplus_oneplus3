@@ -151,8 +151,8 @@ PRODUCT_COPY_FILES += \
  
 # Bluetooth HAL
 PRODUCT_PACKAGES += \
+    libbt-vendor \
     android.hardware.bluetooth@1.0-impl
-
 # Bluetooth
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/iot_devlist.conf:system/etc/bluetooth/iot_devlist.conf
