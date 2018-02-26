@@ -4,3 +4,5 @@ allow mm-qcamerad sensorservice_service:service_manager find;
 binder_call(mm-qcamerad, servicemanager);
 binder_use(mm-qcamerad);
 set_prop(mm-qcamerad, diag_prop);
+allow mm-qcamerad sysfs:file { open read };
+
