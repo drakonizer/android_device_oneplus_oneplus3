@@ -1,2 +1,2 @@
 get_prop(ipacm-diag, diag_prop);
-allow ipacm-diag diag_device:chr_file { read write };
+allow ipacm-diag diag_device:chr_file { read write open ioctl };
