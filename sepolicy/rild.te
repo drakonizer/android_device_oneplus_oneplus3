@@ -4,3 +4,4 @@ get_prop(rild, diag_prop);
 allow rild vendor_file:file ioctl;
 
 allow rild toolbox_exec:file rx_file_perms;
+allow rild diag_device:chr_file { read write };

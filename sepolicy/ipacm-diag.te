@@ -1,1 +1,2 @@
 get_prop(ipacm-diag, diag_prop);
+allow ipacm-diag diag_device:chr_file { read write };
