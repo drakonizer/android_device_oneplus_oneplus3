@@ -30,10 +30,15 @@
         <activity
             android:name=".DozeSettings"
             android:label="@string/ambient_display_title"
-            android:theme="@android:style/Theme.DeviceDefault.Settings">
+            android:theme="@android:style/Theme.Material.Settings">
             <intent-filter>
                 <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
             </intent-filter>
+            <meta-data android:name="com.android.settings.dismiss"
+                       android:value="9,13,30" />
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.display" />
         </activity>
 
     </application>
