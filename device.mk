@@ -341,6 +341,7 @@ PRODUCT_PACKAGES += \
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
+    nfc_nci.msm8996 \
     NfcNci \
     Tag \
     android.hardware.nfc@1.1-service
